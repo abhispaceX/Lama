@@ -29,7 +29,7 @@ const NewprojectsLinksupload = ({ setShowContent, setModal }) => {
         };
 
         try {
-            await axios.post('http://localhost:5000/projects', newProject);
+            await axios.post('https://lama-backend-o2dz.onrender.com', newProject);
             alert(`Project "${projectName}" created!`);
             setProjectName('');
             setProjectLink('');

@@ -11,7 +11,7 @@ const SampleProjects = () => {
 
     useEffect(() => {
         const fetchProjects = async () => {
-            const response = await axios.get('http://localhost:5000/projects');
+            const response = await axios.get('https://lama-backend-o2dz.onrender.com');
             setProjects(response.data);
         };
 
@@ -19,7 +19,7 @@ const SampleProjects = () => {
     }, []);
 
     const handleDelete = async (id) => {
-        await axios.delete(`http://localhost:5000/projects/${id}`);
+        await axios.delete(`https://lama-backend-o2dz.onrender.com/${id}`);
         setProjects(projects.filter(project => project._id !== id));
     };
 
