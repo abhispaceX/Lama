@@ -19,7 +19,7 @@ const SampleProjects = () => {
     }, []);
 
     const handleDelete = async (id) => {
-        await axios.delete(`https://lama-backend-o2dz.onrender.com/${id}`);
+        await axios.delete(`https://lama-backend-o2dz.onrender.com/projects/${id}`);
         setProjects(projects.filter(project => project._id !== id));
     };
 
