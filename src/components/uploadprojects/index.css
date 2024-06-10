@@ -1,0 +1,75 @@
+.upload-container {
+    text-align: center;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .upload-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-left: 100px !important;
+    width: 800px !important;
+  }
+  
+  .upload-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px !important;
+    height: 90px !important;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: transparent !important;
+    color: black;
+    font-weight: bold;
+    border: rgb(101, 99, 99) 1px solid !important;
+  }
+  
+  .upload-button.youtube {
+    background-color: #FF0000;
+  }
+  
+  .upload-button.spotify {
+    background-color: #1DB954;
+  }
+  
+  .upload-button.rss {
+    background-color: #FF6600;
+  }
+  
+  .upload-file-section {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .select-file-button {
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .youtubeimg{
+    height: 50px !important;
+    width: 80px !important;
+  }
+  .inputfiles{
+    text-decoration: none;
+    background-color: transparent;
+
+  }
+  .uploadcontainer{
+    margin-left: 260px !important;
+    margin-top: 30px !important;
+  }

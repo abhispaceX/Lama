@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .upload-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .upload-options {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .upload-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    color: #555555;
+  }
+  
+  .upload-button.youtube {
+    background-color: #FF0000;
+  }
+  
+  .upload-button.spotify {
+    background-color: #1DB954;
+  }
+  
+  .upload-button.media {
+    background-color: #cccccc;
+    color: #555555;
+  }
+  
+  .notification-banner {
+    background-color: #6200ea;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    width: 795px !important;
+  }
+  
+  .try-it-button {
+    background-color: white;
+    color: #6200ea;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .uploads-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+  .uploads-table th, .uploads-table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .uploads-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .edit-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .editdelete{
+    display: flex;
+  }
+  

@@ -1,0 +1,179 @@
+.configuration-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section-switcher {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.section-link {
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 2px solid transparent;
+  transition: background-color 0.3s ease;
+}
+
+.section-link.active {
+  color: rgb(0, 0, 0);
+  border-bottom: 2px solid #7e22ce;
+}
+
+.section-content {
+  width: 100%;
+}
+
+.general-section,
+.advanced-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-group {
+  width: calc(50% - 10px);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  margin-bottom: 5px;
+}
+
+.display-section-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.display-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 15px;
+  width: 900px;
+}
+
+.input-row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.toggle-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.toggle-group .switch {
+  margin-left: 10px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 34px;
+  height: 20px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #7e22ce;
+}
+
+input:checked + .slider:before {
+  transform: translateX(14px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.configuration-container input,
+.configuration-container select {
+  padding: 8px;
+  margin-bottom: 0;
+}
+
+.lorem {
+  margin: 0;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: small;
+}
+
+.chat-heading {
+  margin: 20px 0;
+}
+.profile-picture{
+  width: 50px!important;
+  height: 50px;
+  
+  border-radius: 15px;
+  background-color: rgb(254, 254, 254);
+  
+}
+.profile-picture img {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px; /* Circular profile picture * /* Ensure image fills the space */
+}
+.update-button{
+  padding:8px ;
+  height: 15px;
+  width: 140px;
+  background-color: #7e22ce;; /* Example background color */
+  color: #ffffff; /* Example text color */
+  border: none;
+  border-radius: 10px; /* Adjust the border-radius value to control the roundness */
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+ 
+
+}
+.dp-updateAbhi{
+  display: flex;
+  gap: 10px;
+}

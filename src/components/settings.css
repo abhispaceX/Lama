@@ -1,0 +1,46 @@
+.profilekarthik{
+    height: 150px;
+    border-radius: 80px;
+    width: 150px;
+}
+.karthikSettings{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    gap: 20px;
+}
+.karthikLabels{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.karthikLabels input{
+    width: 300px;
+    padding: 13px;
+}
+.Addvert-karthik{
+    display: flex;
+    gap: 400px;
+    background-color: #7e22ce;
+    color: white;
+    font-size: large;
+    border-radius: 10px;
+}
+.Upgrade-buttons{
+    padding-top: 10px !important;
+    background-color:white;
+    color:  #7e22ce;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px !important;
+
+}
+.basic-plan{
+  margin-left: 30px;
+  margin-top: 25px;
+  background-color: transparent !important;
+}
+.ankertag{
+    background-color: transparent !important;
+}

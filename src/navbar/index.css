@@ -1,0 +1,118 @@
+/* src/Header.css */
+* {
+    background-color: #D9D9D980;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 24px;
+    color: #6a1b9a;
+    font-weight: bold;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    color: black;
+    font-size: 15px !important;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: 150px !important;
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24.61px;
+    text-align: left;
+    border: 1px solid black !important;
+    border-radius: 25px;
+    color:rgb(36, 34, 34);
+    margin-bottom: -30px !important;
+    
+
+}
+@media all and (max-width:576px){
+    .back-button {
+        margin-bottom: 10px !important;
+    }
+
+
+}
+
+.back-button:hover {
+    text-decoration: underline;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+  
+    top: 60px;
+    left: 1792px;
+    padding: 6px 10.67px 6px 10.67px;
+    gap: 0px;
+    opacity: 0px;
+ 
+    color: #3C3C3C;
+
+
+
+}
+
+.icons .fa {
+    font-size: 4px;
+    margin-left: 20px;
+    cursor: pointer;
+    color: #999;
+}
+
+.icons .fa:hover {
+    color: #6a1b9a;
+}
+
+.settingss {
+    width: 28.01px !important;
+    height: 28.1px !important;
+    top: 3.96px;
+    left: 4.5px;
+    gap: 0px;
+    opacity: 0px;
+    color: #3C3C3C;
+
+}
+.notificationss{
+    margin-left: 10px !important;
+
+    width: 35.01px !important;
+    height: 35.1px !important;
+} 
+
+.homeicon {
+    width: 25.11px;
+    height: 25.11px;
+    top: 138.68px;
+    left: 199.51px;
+    padding: 4.24px 2.43px 4.24px 2.43px;
+    gap: 0px;
+    opacity: 0px;
+
+}
