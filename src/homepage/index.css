@@ -82,7 +82,7 @@
 .imagemain{
     height: 200px !important;
 }
-.create-button {
+.create-element {
     width: 330px;
     height: 60.92px;
     top: 831px;
@@ -96,7 +96,7 @@
     line-height: 54.23px;
     text-align: left;
     background: rgba(33, 25, 53, 1);
-    color:#561010;
+    color:#fffcfc;
     display: flex;
     justify-content: space-around;
     align-items: center;

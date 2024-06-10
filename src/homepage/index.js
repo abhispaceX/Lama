@@ -15,7 +15,7 @@ const CreateProject = () => {
                     <img src={image} alt="Project" />
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                     <Link className='link' to="/projectcreation">
-                        <button className="create-button">
+                        <button className="create-element">
                             <img className='plusbuttonn' src={plus} alt="plus" />
                             Create New Project
                         </button>
