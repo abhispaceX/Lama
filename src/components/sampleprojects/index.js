@@ -11,7 +11,7 @@ const SampleProjects = () => {
 
     useEffect(() => {
         const fetchProjects = async () => {
-            const response = await axios.get('https://lama-backend-o2dz.onrender.com');
+            const response = await axios.get('https://lama-backend-o2dz.onrender.com/projects');
             setProjects(response.data);
         };
 

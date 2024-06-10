@@ -32,7 +32,7 @@ const ProjectCreation = () => {
         };
 
         try {
-            const response = await axios.post('https://lama-backend-o2dz.onrender.com', newProject);
+            const response = await axios.post('https://lama-backend-o2dz.onrender.com/newprojects', newProject);
             console.log('Project created:', response.data);
             setProjectName('');
             setError('');
