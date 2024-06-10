@@ -84,18 +84,13 @@
 }
 .create-element {
     width: 330px;
-    height: 60.92px;
-    
+    height: 60.92px; 
     border-radius: 12px;
-    opacity: 0px;
-    font-family: Roboto;
     font-size: 26.28px;
     font-weight: 600;
     line-height: 54.23px;
-    text-align: left;
-    background: rgb(2, 0, 7);
+    background-color: rgb(2, 0, 7);
     color:#f0e4e4;
-    
     border: none;
     margin-bottom: 50px !important;
     
