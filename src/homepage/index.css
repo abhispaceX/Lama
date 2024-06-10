@@ -82,12 +82,10 @@
 .imagemain{
     height: 200px !important;
 }
-/* .create-element {
+.create-element {
     width: 330px;
     height: 60.92px;
-    top: 831px;
-    left: 675px;
-    gap: 0px;
+    
     border-radius: 12px;
     opacity: 0px;
     font-family: Roboto;
@@ -95,15 +93,15 @@
     font-weight: 600;
     line-height: 54.23px;
     text-align: left;
-    background: rgb(15, 0, 51);
-    color:#db2727;
+    background: rgb(2, 0, 7);
+    color:#f0e4e4;
     display: flex;
     justify-content: space-around;
     align-items: center;
     border: none;
     margin-bottom: 50px !important;
     
-} */
+}
 .titlemainheading{
     font-weight: bold;
 }
