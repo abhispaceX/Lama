@@ -19,6 +19,7 @@ const CreateProject = () => {
                             New Project
                         </button>
                     </Link>
+                    <p>Create</p>
                 </div>
             </div>
         </>
