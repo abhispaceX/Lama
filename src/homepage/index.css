@@ -82,7 +82,7 @@
 .imagemain{
     height: 200px !important;
 }
-.create-element {
+/* .create-element {
     width: 330px;
     height: 60.92px;
     top: 831px;
@@ -103,11 +103,7 @@
     border: none;
     margin-bottom: 50px !important;
     
-
-
-
-
-}
+} */
 .titlemainheading{
     font-weight: bold;
 }
